@@ -1,0 +1,35 @@
+
+/* parent set to flex */
+#wrapper {
+  background-color: grey;
+  margin: 20px auto;
+  width: 90%;
+}
+
+header {
+  background-color: #6b4aad;
+}
+#container {
+  background-color: #abbddb;
+  display: flex;
+  /* default is child of flex takes size of contents, so children must be given a size - relative to the parent */
+  margin: 20px auto; /* top&bottom, left&right */
+  width: 100%;
+}
+
+/* flex child elements */
+nav {
+  background-color: #d8d168;
+  width: 20%;
+  /* flex will shrink until the content cannot get narrower without hyphenation */
+
+}
+
+main {
+  background-color: #ce68d8;
+  width: 80%;
+}
+
+footer {
+  background-color: #6b4aad;
+}
